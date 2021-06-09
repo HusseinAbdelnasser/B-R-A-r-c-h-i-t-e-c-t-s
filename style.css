@@ -1,0 +1,153 @@
+body{
+    background-color: #fff;
+    margin: 0;
+    padding: 0
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+/*--start nav--*/
+nav{
+     background-color: #f7f7f7;
+    overflow: hidden;
+}
+nav ul{
+    list-style-type: none;
+    padding-left: 0px;
+    float: right;
+}
+nav ul li{
+    float: left;
+    color: black;
+    font-weight: bold;
+    padding: 10px 10px 10px 20px; 
+    font-size: 20px;
+}
+nav h{ color: black; float: left;padding-top: 26px; font-size: 20px;}
+nav h span {color: black; font-weight: bold;}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+/*--end nav--*/
+/*--start slider--*/
+.slider{
+    background-image: url(images/architect.jpg);
+    background-size: cover;
+    height: 600px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.slider .web{
+    padding:340px 0px 0px 561px;
+    font-size: 30px;
+    color: white;
+}
+.slider .web h span{
+    background-color: #212323;
+    padding:20px;
+}
+
+/*--end slider--*/
+/*--start project--*/
+.project{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+    padding-left: 30px;
+}
+.project h{font-size: 30px;}
+.project .image{
+    float: left;
+    width: 25%;
+    padding-bottom:0px;
+    padding-top: 15px;
+    padding-right: 0;
+}
+.project .image img {
+    width: 313px;
+    height: 160px
+}
+.project .image label{display: block; 
+    font-size: 25px;
+    padding-bottom: 10px; 
+    font-weight: bold;
+}
+
+/*--end project--*/
+/*--start about--*/
+.about{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+    padding-left: 30px;
+}
+.about h{font-size: 30px;}
+.about p{
+    line-height: 1.6
+}
+.one{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.one article{
+    float: left;
+    width: 25%
+}
+.one article img{
+    width: 306px;
+    height: 191px;
+}
+.one article section span{color: #e6e6e6; font-size: 18px;}
+.one article section button{
+    width: 313px;
+    padding: 10px;
+    background-color: #F1F1F1;
+    border: 1px solid #F1F1F1;
+    cursor: pointer;
+}
+.one article section button:hover{background-color: #d1d6cf;}
+/*--end about--*/
+/*--start Contact--*/
+.contact {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+.contact h{font-size: 30px;}
+.contact input{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+    width: 95%;
+}
+.contact button{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    width: 170px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.contact button:hover{background-color: gold; border: gold;}
+/*--end Contact--*/
+.map{padding-top: 30px; padding-bottom: 30px;}
+.map img{width: 97%; margin-left: 20px;}
+/*--start footer--*/
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+footer ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+footer ul li{ display: inline-block;}
+footer h span{color: gold;}
+
+/*--end footer--*/
